@@ -1,10 +1,8 @@
-import FunctionComponent from './FunctionComponent';
+import FunctionState from './FunctionState';
 
 const App = () => {
 	return (
-		<FunctionComponent name="React" num={1}>
-			React
-		</FunctionComponent>
+		<FunctionState />
 	);
 };
 
